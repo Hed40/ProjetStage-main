@@ -16,19 +16,26 @@
           document.getElementById('header').innerHTML = data; // insérer le texte dans la div au dessus ;-)
         });
     </script>
-    <main class="d-flex flex-column align-items-center py-3 my-4 ">
-      <h1>Contacte</h1>
-      <div class="card" style="width: 20rem;">
-        <img src="assets/img/vignette-en-bref.jpg.webp" class="card-img-top" alt="...">
-        <div class="card-body text-center">
-          <div class="card-title"><b>GRAND SITE DE LA DUNE DU PILAT</b></div>
-          <p class="card-text">
-            Route de Biscarrosse RD 218 33115 Pyla-sur-Mer<br>
-            Le point accueil et information<br>
-            05 56 22 12 85 / 07 86 79 45 34</p>
-        </div>
+    <main class="container py-3 my-4">
+      <h1 class="text-center">Contacter le Syndicat Mixte de la Dune du Pilat</h1>
+      <br>
+      <div class="row gap-4 justify-content-center">
+          <div class="col-12 col-md-6 col-lg-4"> 
+              <div class="card" style="width: 100%;">
+                  <img src="assets/img/vignette-en-bref.jpg.webp" class="card-img-top" alt="...">
+                  <div class="card-body text-center">
+                      <div class="card-title"><b>GRAND SITE DE LA DUNE DU PILAT</b></div>
+                      <p class="card-text">
+                          Route de Biscarrosse RD 218 33115 Pyla-sur-Mer<br>
+                          Le point accueil et information<br>
+                          05 56 22 12 85 / 07 86 79 45 34
+                      </p>
+                  </div>
+              </div>
+          </div>
       </div>
-    </main>
+  </main>
+  
     <div id="footer"></div>
     <script>
       fetch('footer.html') // créer une requête pour récupérer le contenu du fichier footer.html
@@ -38,6 +45,5 @@
         });
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    
     </body>
 </html>
